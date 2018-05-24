@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Formulario</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Exo+2" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet">
+    <link rel="stylesheet" href="style2.css">
+
+    <script src="app.js"></script>
+
+    <!--       Conexion a base de datos en la nube (Firebase)-->
+    <script src="https://www.gstatic.com/firebasejs/5.0.3/firebase.js"></script>
+    <script>
+    // Initialize Firebase
+    var config = {
+        apiKey: "AIzaSyDcYrBUNRKo25EYYe4LigLBK8n0PTsWVeM",
+        authDomain: "formulario-1.firebaseapp.com",
+        databaseURL: "https://formulario-1.firebaseio.com",
+        projectId: "formulario-1",
+        storageBucket: "formulario-1.appspot.com",
+        messagingSenderId: "3076320475"
+    };
+    firebase.initializeApp(config);
+    </script>
+
+
+
+</head>
+<body>
+
+    <h1>DeepcodE©</h1>
+    <p>Bienvenido a este portal web en su fase Beta!!</p>
+
+    <div class="formulario_ingresar" id="login">
+
+        <h2>Login</h2>
+
+        <div>
+            <label class="em" for="email">Correo</label>
+            <input type="text" name="email" id="email">
+        </div>
+
+        <div>
+            <label class="con" for="pass">Contraseña</label>
+            <input type="password" name="pass" id="pass">
+        </div>
+        
+        <button onclick="ingresar()">Ingresar</button>
+    
+    </div>
+
+    <div class="formulario_registro" id="register">
+
+            <h2>Registro</h2>
+    
+            <div>
+                <label class="em" for="email">Correo</label>
+                <input type="text" name="email" id="email_regis">
+            </div>
+    
+            <div>
+                <label class="con" for="pass">Contraseña</label>
+                <input type="password" name="pass" id="pass_regis">
+            </div>
+            
+            <button onclick="registrar()">Registrar</button>
+        
+    </div>
+
+    <div id="logout">
+		<button onclick="logout()">Cerrar Sesión</button>
+    </div>
+    
+    <div id="contenido">
+
+    </div>
+
+
+</body>
+</html>

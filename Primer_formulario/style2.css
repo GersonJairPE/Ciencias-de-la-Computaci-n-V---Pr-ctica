@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+}
+
+h1{
+    background: rgb(43, 43, 126);
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    padding: 30px;
+    font-family: 'Exo 2', sans-serif;
+}
+p{
+    padding: 30px;
+    text-align: center;
+    background: rgb(73, 73, 136);
+    font-size: 30px;
+    color: rgb(139, 139, 139);
+    font-family: 'Exo 2', sans-serif;
+    -webkit-box-shadow: 0px 8px 13px 0px rgba(148,148,148,1);
+    -moz-box-shadow: 0px 8px 13px 0px rgba(148,148,148,1);
+    box-shadow: 0px 8px 13px 0px rgba(148,148,148,1);
+}
+
+/*=======================================LOGIN================================================*/
+
+.formulario_ingresar{
+    margin: 40px auto;
+    padding: 15px;
+    width: 25%;
+    min-width: 250px;
+    text-align: center;
+    background: rgb(104, 104, 136);
+    border-radius: 3px;
+    -webkit-box-shadow: 0px 0px 38px -1px rgba(128,128,128,1);
+    -moz-box-shadow: 0px 0px 38px -1px rgba(128,128,128,1);
+    box-shadow: 0px 0px 38px -1px rgba(128,128,128,1);
+}
+
+h2{
+    font-family: 'Exo 2', sans-serif;
+}
+
+.formulario_ingresar div label, button{
+    font-family: 'Exo 2', sans-serif;
+}
+
+.em{
+    margin: 0 45px 0 0;
+
+}
+
+.con{
+    margin: 0 10px 0 0;
+}
+
+.formulario_ingresar div{
+    margin: 10px;
+    padding: 10px;
+    text-align: left;
+
+}
+
+input{
+    border: none;
+    padding: 7px;
+    background: white;
+}
+/*=======================================REGISTRO================================================*/
+
+
+.formulario_registro{
+    margin: 40px auto;
+    padding: 15px;
+    width: 25%;
+    min-width: 250px;
+    text-align: center;
+    background: rgb(104, 104, 136);
+    border-radius: 3px;
+    -webkit-box-shadow: 0px 0px 38px -1px rgba(128,128,128,1);
+    -moz-box-shadow: 0px 0px 38px -1px rgba(128,128,128,1);
+    box-shadow: 0px 0px 38px -1px rgba(128,128,128,1);
+}
+
+h2{
+    font-family: 'Exo 2', sans-serif;
+}
+
+.formulario_registro div label, button{
+    font-family: 'Exo 2', sans-serif;
+}
+
+.em{
+    margin: 0 45px 0 0;
+
+}
+
+.con{
+    margin: 0 10px 0 0;
+}
+
+.formulario_registro div{
+    margin: 10px;
+    padding: 10px;
+    text-align: left;
+
+}
+
+input{
+    border: none;
+    padding: 7px;
+    background: white;
+}

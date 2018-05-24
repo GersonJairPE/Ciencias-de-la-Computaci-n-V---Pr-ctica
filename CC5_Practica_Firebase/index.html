@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Aplicacion con Firebase</title>
+	<meta charset="utf-8">
+
+<script src="https://www.gstatic.com/firebasejs/5.0.3/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyAs-85FDs8W4BIFws5j_QET-S6-bnr83y4",
+    authDomain: "cc5-clase-practica-db.firebaseapp.com",
+    databaseURL: "https://cc5-clase-practica-db.firebaseio.com",
+    projectId: "cc5-clase-practica-db",
+    storageBucket: "cc5-clase-practica-db.appspot.com",
+    messagingSenderId: "477720269411"
+  };
+  firebase.initializeApp(config);
+</script>
+
+<script type="text/javascript" src="app.js"></script>
+
+<link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+<body>
+
+	<h1>Aplicacion con Firebase</h1>
+
+	<div class="formulario" id="login" >
+	<h2>Ingrese usuario</h2>
+
+		<p>Correo</p><input type="email" name="email" id="email">
+		<p>Password</p><input type="password" name="pass" id="pass">
+		<button onclick="ingresar()">Ingresar</button>
+
+	</div>
+	<div class="formulario" id="register">
+		<h2>Registrarse</h2>
+		<p>Correo: </p><input type="email" name="" id="new_mail">
+		<p>Clave: </p><input type="password" name="" id="new_pass">
+		<button onclick="registrarse()">Registrarte aqui</button>
+		
+	</div>
+
+	<div id="logout">
+		<button onclick="logout()">Cerrar Sesión</button>
+	</div>
+
+	<div id="contenido">
+		
+	</div>
+
+
+</body>
+</html>
