@@ -1,0 +1,52 @@
+
+*{
+  margin: 0;
+}
+body {
+  background:#596358;
+  font-family: 'Gugi', cursive;
+  color:white;
+}
+
+h1,h2{
+  text-align:center;
+  padding: 15px;
+  margin: 30px 30px;
+
+}
+
+p{
+    padding: 15px;
+    border: 2px solid;
+    margin: 30px 30px;
+}
+
+h1:hover{
+  color: rgba(2,2,2,0.9) ;
+  padding: 15px;
+  border: 2px solid;
+}
+
+h1:active{
+  color:red;
+  background:white;
+}
+
+h2:hover{
+  color:#1B5E20;
+  background:white;
+}
+
+a:link{
+  color:white;
+}
+a:visited{
+  color:#FF9800;
+}
+
+#particles-js{
+  background: url("http://www.gunnars.com/wp-content/uploads/2012/05/bkg_planet12.jpg");
+  width: 100%;
+  height: 500px;
+  margin: 0px;
+}

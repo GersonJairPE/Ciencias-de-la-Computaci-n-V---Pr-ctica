@@ -1,0 +1,32 @@
+.imagen {
+   position: relative;
+    display: inline-block;
+    text-align: center;
+
+}
+img{
+  height: 400px;
+  width: 100%;
+border-radius: 24px 24px 24px 24px;
+-moz-border-radius: 24px 24px 24px 24px;
+-webkit-border-radius: 24px 24px 24px 24px;
+border: 7px double #16ad28;
+}
+
+.encima{
+    font-size: 60px;
+    position: absolute;
+    top: 20.5%;
+    left: 20%;
+}
+.encima2{
+    position: absolute;
+    top: 30%;
+    left: 40%;
+}
+
+.encima3{
+    color: black;
+
+
+}
